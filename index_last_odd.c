@@ -8,4 +8,3 @@ int index_last_odd(int A[], int b)
     }
     return b;
 }
-
