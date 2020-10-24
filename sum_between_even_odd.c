@@ -9,7 +9,15 @@ int sum_between_even_odd(int A[], int b)
     int i;
     for (i = f; i < l; i++)
     {
-        summ = summ + abs(A[i]);
+        if (A[i]>=0)
+        {
+            summ = summ +A[i];
+        }
+        else
+        {
+            summ = summ - A[i];
+        }
+        
     }
     return (summ);
 }
