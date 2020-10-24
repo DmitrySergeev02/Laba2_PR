@@ -29,7 +29,7 @@ int main()
     case 3:
         printf("%d\n", sum_before_even_and_after_odd(arr, arr_size));
         break;
-    default: printf("Данные некорретны\n"); break;
+    default: printf("Данные некорректны\n"); break;
     }
     return 0;
 }
